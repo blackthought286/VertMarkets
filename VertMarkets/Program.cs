@@ -13,6 +13,8 @@ namespace VertMarkets
 
         public static async Task Main(string[] args)
         {
+            Console.WriteLine("Start Process to get magazine subscribers");
+
             _httpClient.BaseAddress = new Uri("http://magazinestore.azurewebsites.net/");
             _httpClient.Timeout = new TimeSpan(0, 0, 30);
             _httpClient.DefaultRequestHeaders.Clear();
