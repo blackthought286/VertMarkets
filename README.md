@@ -18,3 +18,4 @@ Open up a console app and navigate to bun/release/net6.0 file
 of where you published at. Run the console and you should
 see a time stamp as well as the word true if the application
 has the right answer. 
+
