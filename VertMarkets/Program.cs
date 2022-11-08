@@ -8,6 +8,8 @@ namespace VertMarkets
 
     internal class Program
     {
+        // the app was streamlined for the sake of speed. 
+        // also checks need to be put in for Exceptions. 
 
         private static HttpClient _httpClient = new HttpClient();
 
